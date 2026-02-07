@@ -1,13 +1,109 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-
-    <link href="styles.css" rel="stylesheet" />
-
-    <title>Rocket Academy</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MoRadhi | Portfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <nav class="glass-nav">
+        <div class="logo">Mohammed Radhi</div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about" class="full-section">
+        <div class="glass-card hero-content">
+          <h1>Frontend Developer</h1>
+          <p>
+            Creating elegant digital experiences through clean code and modern
+            design.
+          </p>
+          <a href="#projects" class="btn">View My Work</a>
+        </div>
+      </section>
+
+      <section id="projects" class="full-section">
+        <h2 class="section-title">Current Projects</h2>
+        <div class="project-list">
+          <div class="project-row glass-card">
+            <div class="project-img">
+              <img
+                src="./assets/guess-the-word.png"
+                alt="Guess the Word"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-info">
+              <h3>Guess The Word</h3>
+              <p>
+                A JavaScript-powered logic game with dynamic UI updates using
+                React.
+              </p>
+              <a href="https://moradhi.github.io/guess-the-word/" class="btn"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+
+          <div class="project-row glass-card">
+            <div class="project-img">
+              <img
+                src="./assets/high-card-game.png"
+                alt="High Card Game"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-info">
+              <h3>High Card Game</h3>
+              <p>Interactive card mechanics built using JS & React.</p>
+              <a href="https://moradhi.github.io/high-card-game/" class="btn"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+
+          <div class="project-row glass-card">
+            <div class="project-img">
+              <img
+                src="./assets/world-clock.png"
+                alt="World Clock"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-info">
+              <h3>World Clock</h3>
+              <p>Real-time clock application with time-zone integration.</p>
+              <a href="https://moradhi.github.io/world-clock/" class="btn"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="full-section">
+        <div class="glass-card contact-container">
+          <h2>Get In Touch</h2>
+          <p>Have a project in mind or just want to say hi?</p>
+          <a href="mohammedabdulla05@hotmail.com" class="btn large">Email Me</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 MoRadhi | Minimalist Portfolio</p>
+    </footer>
   </body>
 </html>
